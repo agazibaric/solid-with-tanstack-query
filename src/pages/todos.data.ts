@@ -1,4 +1,4 @@
-import { queryClient } from "../App";
+import { queryClient } from "../app";
 import { fetchTodos } from "../lib/api";
 
 export const STALE_TIME = 1000 * 60 * 5; // 5 mins

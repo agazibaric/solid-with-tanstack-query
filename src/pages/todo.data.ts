@@ -1,5 +1,5 @@
 import { RouteLoadFuncArgs } from "@solidjs/router";
-import { queryClient } from "../App";
+import { queryClient } from "../app";
 import { fetchTodo } from "../lib/api";
 import { STALE_TIME } from "./todos.data";
 
