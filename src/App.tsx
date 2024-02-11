@@ -5,7 +5,7 @@ import { routes } from "./routes";
 
 export const queryClient = new QueryClient();
 
-export const Routes = () => {
+export const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <Router root={Root}>{routes}</Router>
