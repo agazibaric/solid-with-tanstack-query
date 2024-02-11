@@ -1,8 +1,8 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
 
+import { Routes } from "./App";
 import "./index.css";
-import { Routes } from "./router";
 
 const root = document.getElementById("root");
 
